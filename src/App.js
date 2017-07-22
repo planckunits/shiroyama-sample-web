@@ -19,10 +19,27 @@ class App extends Component {
         <p className="App-intro">
           市街地の中心部に位置する標高107メートルの小高い山で、クスの大木やシダ・サンゴ樹など600種以上の温帯・亜熱帯性植物が自生する自然の宝庫です。遊歩道での散策も楽しめ、市民の憩いの場ともなっています。
         </p>
+        <hr />
         <p className="App-intro">
           城山は西南戦争の最後の激戦地となったため、西郷洞窟や西郷終焉の地など、西南戦争にまつわる史跡が多く存在します。
           昭和６年に国の史跡・天然記念物の指定を受けました。 （県推奨森林浴の森70選：野鳥・植物観察コース）
         </p>
+        <div className="table-box">
+          <table>
+            <tr>
+              <td>地図</td>
+              <td>
+                <a
+                  href={
+                    'https://www.google.co.jp/maps?f=l&z=15&mrt=loc&hl=ja&q=31.596322,130.549999(%E5%9F%8E%E5%B1%B1)'
+                  }
+                >
+                  鹿児島県鹿児島市城山町
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
     )
   }
