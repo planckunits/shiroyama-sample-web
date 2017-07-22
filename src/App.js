@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
+import { ImageBox } from './components/ImageBox'
 import './App.css'
 
 class App extends Component {
@@ -10,6 +10,7 @@ class App extends Component {
           <h2>城山</h2>
           <h3>(城山展望台・城山自然遊歩道)</h3>
         </div>
+        <ImageBox />
         <h2>城山展望台</h2>
         <p className="App-intro">
           展望台からは桜島をはじめ錦江湾や鹿児島市街地を一望でき、天気の良い日には遠く霧島や指宿の開聞岳も見えます。また、夜景が美しいことでも有名です。
